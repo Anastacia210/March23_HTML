@@ -1,0 +1,37 @@
+
+h2 {
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 30px;
+}
+li {
+    list-style-type: none;
+
+}
+ul {
+    width: 500px;
+    border: 5px solid blue;
+}
+
+.first_l li:nth-child(even) {
+    color: fuchsia;
+}
+
+.second_l li:nth-child(odd) {
+    font-size: 22px;
+}
+
+.third_l li:nth-child(2n+4):after {
+    content: "!";
+    color: blue;
+    font-size: 30px;
+}
+
+.fourth_l li:last-child {
+    color: violet;
+}
+
+.fifth_l li:first-letter {
+    color: red;
+    font-size: 30px;
+}
