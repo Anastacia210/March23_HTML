@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 4</title>
+    <link rel="stylesheet" href="les4(hw-4).css">
+</head>
+<body>
+<form>
+    <label class="header"><b>Заповніть поля анкети</b></label>
+    <label class="name">
+        <b>Ваше ім'я:</b><input type="text" name="userName" class="field">
+    </label>
+    <br>
+    <label class="name">
+        <b>Ваше прізвище:</b><input type="text" name="userSurname" class="field">
+    </label>
+    <br>
+    <div>
+    <label class="name"><b>Ваша стать:</b><input type="radio" name="gender" value="female"><b>Жіноча</b></label>
+    <label class="name"><input type="radio" name="gender" value="male"><b>Чоловіча</b></label>
+    </div>
+    <br>
+    <label class="name"><b>Послугами якої сотової компанії Ви користуєтеся:</b></label>
+    <div class="mobile">
+    <label for="kyivStar" class="name"><input type="checkbox" name="checkbox" id="kyivStar"><b>KyivStar</b></label>
+    <label for="mts" class="name"><input type="checkbox" name="checkbox" id="mts"><b>MTS</b></label>
+    <label for="life" class="name"><input type="checkbox" name="checkbox" id="life"><b>Life:)</b></label>
+    <label for="peopleNet"class="name"><input type="checkbox" name="checkbox" id="peopleNet"><b>PeopleNet</b></label>
+    <label for="utel" class="name"><input type="checkbox" name="checkbox" id="utel"><b>Utel</b></label>
+    </div>
+    <br>
+    <div class="button">
+    <button><b>Надіслати анкету</b></button>
+    <button><b>Очистити бланк</b></button>
+    </div>
+</form>
+</body>
+</html>

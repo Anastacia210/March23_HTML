@@ -1,0 +1,38 @@
+#yellow{
+    height: 100vh;
+    background-color: yellow;
+    text-align: center;
+    padding: 50px;
+}
+#blue{
+    height: 100vh;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 50px;
+
+}
+#bisque{
+    height: 100vh;
+    background-color: bisque;
+    text-align: center;
+    padding: 50px;
+}
+body{
+    margin: 0 auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    font-size: 16px;
+    margin-top: 30px;
+}

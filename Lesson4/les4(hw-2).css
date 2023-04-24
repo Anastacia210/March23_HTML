@@ -1,0 +1,59 @@
+body {
+    margin: 50px 0 auto;
+    background-color: darkcyan;
+}
+form {
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.header {
+    background-color: lightcyan;
+    height: 150px;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 30px 30px 0 0;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: Raleway;
+    font-size: 45px;
+}
+#checkbox {
+    font-family: Raleway;
+}
+.field {
+    width: 500px;
+    height: 40px;
+    padding: 5px 15px;
+    border: 1px solid black;
+    font-family: Raleway;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: lightcyan;
+    width: 150px;
+    height: 50px;
+    font-family: Raleway;
+    border-radius: 15px;
+    margin-left: 190px;
+}
+button:active {
+    background-color: darkcyan;
+}
+div {
+    margin-top: 70px;
+}
+span {
+    font-family: Raleway;
+    font-size: 20px;
+}

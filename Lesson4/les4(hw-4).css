@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+}
+form {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: cyan;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.field {
+    width: 300px;
+    height: 25px;
+    margin-left: 10px;
+}
+.header {
+    color: deeppink;
+    font-size: 45px;
+    margin: 20px 150px;
+}
+.name {
+    font-size: 20px;
+}
+.mobile {
+    margin-top: 10px;
+    display: flex;
+    column-gap: 15px;
+}
+button {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+}
+button:hover {
+    cursor: pointer;
+}

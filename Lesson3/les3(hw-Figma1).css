@@ -1,0 +1,68 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 700px;
+    height: 100px;
+    background: dodgerblue;
+}
+
+main {
+    width: 700px;
+    height: 150px;
+    background: yellow;
+}
+
+aside {
+    display: flex;
+}
+
+section {
+    width: 400px;
+    height: 200px;
+    background: royalblue;
+}
+
+article {
+    width: 300px;
+    height: 200px;
+    background: deepskyblue;
+}
+
+footer {
+    width: 700px;
+    height: 50px;
+    background: dodgerblue;
+}
+
+/*___________________________________________________________________________________*/
+
+nav, .bottom {
+    background-color: cornflowerblue;
+    width: 700px;
+    height: 50px;
+}
+
+.section {
+    display: flex;
+}
+
+.middle {
+    background-color: powderblue;
+}
+
+.middle1 {
+    background-color: skyblue;
+}
+
+.middle2 {
+    background-color: deepskyblue;
+}
+
+.wh {
+    width: 233.3px;
+    height: 350px;
+}
