@@ -10,6 +10,7 @@ body {
     height: 20vh;
     width: 100%;
     background-color: cyan;
+    border-bottom: 1px solid blue;
 }
 
 .left {
@@ -21,6 +22,7 @@ body {
     width: 100%;
     height: 40vh;
     background-color: #ECBCBC;
+    border-bottom: 1px solid blue;
 }
 
 .cde {
@@ -32,10 +34,12 @@ body {
 .c, .d, .e {
     width: 34%;
     background-color: violet;
+    border-right: 1px solid blue;
 }
 
 .right {
     width: 20%;
     height: 80vh;
     background-color: deepskyblue;
+    border-left: 1px solid blue;
 }
